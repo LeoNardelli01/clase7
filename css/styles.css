@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100vw;
+  height: 20vh;
+  border: 2px solid;
+  background-color: rgb(126, 251, 197);
+}
+body{
+
+}
+
+
+div.contenedor{
+  width: 1200px;
+  margin: 0 auto;
+  border: 2px solid;
+  overflow: hidden;
+}
+
+div h2{
+  font-size: 1.75em;
+}
+
+p strong{
+  font-size: 0.9375em;
+}
+
+div.caja-a{
+  float: left;
+  width: 20.8333%;
+  border: 2px solid;
+  background-color: rgb(19, 156, 78);
+}
+
+div.caja-b{
+  float: left;
+  width: 66.666%;
+  border: 2px solid;
+  background-color: rgb(59, 199, 17);
+  margin: 0 2.0833%;
+}
+
+div.caja-c{
+  float: left;
+  width: 8.333%;
+  border: 2px solid;
+  background-color: rgb(194, 227, 33);
+
+}
+
+@media (max-width: 900px) {
+  div.contenedor{
+    width: 95vw;
+    padding: 20px 20px;
+  }
+
+  div.caja-a{
+    float: left;
+    width: 40%;
+  }
+  div.caja-b{
+    width: 55%;
+    float: right;
+    margin: 0 0;
+  }
+
+  div.caja-c{
+    width: 100%;
+    float: none;
+  }
+}
+
+@media (max-width: 450px) {
+  div.caja-a{
+    width: 100%;
+    float: none;
+  }
+  div.caja-b{
+    width: 100%;
+    float: none;
+  }
+  div.caja-c{
+    width: 100%;
+    float: none;
+  }
+  body{
+   font-size: 130%;
+   text-align: justify;
+  }
+
+}
